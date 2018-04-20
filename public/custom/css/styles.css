@@ -1,0 +1,231 @@
+@font-face {
+    font-family: MavenPro-Bold;
+    src: url(../fonts/MavenPro-Bold.ttf);
+}
+
+@font-face {
+    font-family:MavenPro-Regular;
+    src: url(../fonts/MavenPro-Regular.ttf);
+}
+@font-face {
+    font-family: AbrilFatface-Regular;
+    src: url(../fonts/AbrilFatface-Regular.ttf);
+}
+@font-face {
+    font-family: Pacifico-Regular;
+    src: url(../fonts/Pacifico-Regular.ttf);
+}
+@font-face {
+    font-family: Gugi-Regular;
+    src: url(../fonts/Gugi-Regular.ttf);
+}
+@font-face {
+    font-family: Sanchez-Regular;
+    src: url(../fonts/Sanchez-Regular.ttf);
+}
+/*............................main navigation styles start...................................*/
+body{
+    font-family: Sanchez-Regular;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #ffffff;
+}
+.navbar{
+   margin-bottom: 0px;
+    border-radius: 0px;
+    border: none;
+    background: #1b6d85;
+}
+.navbar-inverse .navbar-nav>li>a{
+    color: #ffffff;
+}
+.navbar-inverse .navbar-nav>.active>a{
+    background: none;
+}
+.navbar-inverse .navbar-nav>.active>a:focus{
+    background: none;
+}
+.navbar-inverse .navbar-nav>.active>a:hover{
+    background: none;
+}
+.navbar-inverse .navbar-brand {
+
+    font-family: Pacifico-Regular;
+    font-size: 25px;
+    color: #ffffff;
+}
+.signing-sec{
+    background: url("../images/article-4305-robo-advice-banking-platform-header.jpg");
+    background-size: cover;
+    min-height: 100vh;
+    padding: 30px;
+}
+.signing-sec .signing-wrp{
+    background: rgba(0,0,0,.54);
+    padding: 30px;
+    text-align: center;
+    color: #ffffff;
+    -webkit-box-shadow: -2px 25px 19px -15px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 25px 19px -15px rgba(0,0,0,0.75);
+    box-shadow: -2px 25px 19px -15px rgba(0,0,0,0.75);
+}
+.signing-sec .signing-wrp .input-wrp{
+    padding: 20px;
+    position: relative;
+}
+.signing-sec .signing-wrp input{
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    background: transparent;
+    width: 75%;
+}
+.signing-sec .signing-wrp input:focus{
+    outline: none;
+}
+.signing-sec .signing-wrp span{
+    position: absolute;
+    right: 84px;
+}
+.signing-sec .signing-wrp button{
+    background: #ffffff;
+    color: #000000;
+    padding: 10px;
+    border: none;
+    font-size: 18px;
+}
+.signing-sec .signing-wrp h1{
+    font-family: Gugi-Regular;
+    margin-bottom: 40px;
+}
+h1, h2, h3{
+    font-family: Gugi-Regular;
+}
+/*..........................career page..............................................*/
+.career-page-banner{
+    min-height: 294px;
+    background-size: cover;
+    position: relative;
+}
+.career-page-banner img{
+    filter: brightness(80%);
+}
+.career-page-banner h1{
+    font-family: Gugi-Regular;
+    margin: 0;
+    position: absolute;
+    left: 15px;
+    bottom: 25px;
+    color: #ff;
+    color: #ffffff;
+}
+.page-body{
+    background: #f0f0f0;
+    min-height: 50vh;
+}
+.vacancies-main-container{
+    padding-top: 30px;
+}
+.vacancies-main-container h1{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.vacancies-main-container span{
+    color: #1b6d85;
+    font-size: 20px;
+}
+.vacancies-main-container p{
+    padding-top: 10px;
+    text-align: justify;
+}
+.vacancies-main-container button{
+    color: #ffffff;
+    background: #1b6d85;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+}
+.vacancies-main-container .vacancy-wrp{
+    margin-bottom: 20px;
+}
+hr{
+    background-color: #838383 !important;
+    color: #838383 !important;
+    border: solid 0.25px #838383 !important;
+    height: 0.25px !important;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    left: 0;
+    background:rgba(0, 0, 0, 0.75);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 14%;
+    width: 100%;
+    margin-top: 30px;
+}
+.overlay-content h2{
+    color: #ffffff;
+    text-align: center;
+}
+.overlay-content span{
+    font-size: 17px;
+    text-align: left;
+    color: #ffffff;
+}
+.overlay-content .form-content input{
+    padding: 7px 7px;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 100%;
+    position: relative;
+}
+.overlay-content .form-content .input-field{
+    margin-bottom: 10px;
+}
+.overlay-content .form-content button{
+    float: right;
+    padding: 9px 45px;
+    border: none;
+    border-radius: 8px;
+    background: #1b6d85;
+    color: #ffffff;
+    font-family: Arsenal-Regular;
+    font-size: 20px;
+}
+.overlay-content .login-content input:focus{
+    outline: none;
+}
+.overlay .closebtn {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #ffffff;
+    /*display: block;*/
+    transition: 0.3s;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
